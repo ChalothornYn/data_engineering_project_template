@@ -5,7 +5,7 @@ from airflow.operators.python import PythonOperator
 
 
 def hello_world():
-    print('hello world from local')
+    print('hello world from local naja')
 
 
 with DAG(
